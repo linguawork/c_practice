@@ -6,7 +6,7 @@
 /*   By: areggie <areggie@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/11 15:58:36 by areggie           #+#    #+#             */
-/*   Updated: 2021/11/11 16:14:57 by areggie          ###   ########.fr       */
+/*   Updated: 2022/02/12 18:52:50 by areggie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 /*
 Понятие двусвязного списка 
-объсняется графически на Simple Code:
+объясняется графически на Simple Code:
 
-https://www.youtube.com/watch?v=9o_i0zzxk1s&list=PLQOaTSbfxUtAIipl4136nwb4ISyFk8oI4&index=6
+https://www.youtube.com/watch?v=lQ-lPjbb9Ew&list=PLQOaTSbfxUtAIipl4136nwb4ISyFk8oI4&index=5
 
 название видео: 
 Двусвязный список | Динамические структуры данных #2
