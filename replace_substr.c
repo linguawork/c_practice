@@ -4,8 +4,6 @@
 #include "libft/libft.h"
 #include <unistd.h>
 
-
-
 int char_count(const char *str)
 {
 	int i;
