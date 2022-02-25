@@ -2,10 +2,9 @@
 #include <stdlib.h>
 #include <stdbool.h>
 /*
-пример программы на однонаправленных списках
-Здесь список интов Хотя в лекции давал пример в чарах 
-источник https://www.udemy.com/course/advanced-c-programming-course/learn/lecture/17962348#announcements/6029664/
-
+Пример программы на однонаправленных списках
+Здесь список интов, хотя в лекции давал пример в чарах 
+Источник https://www.udemy.com/course/advanced-c-programming-course/learn/lecture/17962348#announcements/6029664/
 */
 
 
