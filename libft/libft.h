@@ -6,7 +6,7 @@
 /*   By: areggie <areggie@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/08 17:40:41 by areggie           #+#    #+#             */
-/*   Updated: 2021/05/16 18:45:35 by areggie          ###   ########.fr       */
+/*   Updated: 2022/04/26 22:18:59 by areggie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,7 @@ size_t len);
 void			*ft_calloc(size_t count, size_t size);
 char			*ft_strdup(const char *s1);
 char			*ft_substr(char const *s, unsigned int start, size_t len);
-char			*ft_strjoin(const char *s1, const char *s2);
+char			*ft_strjoin(char *s1, char *s2);
 char			*ft_strtrim(char const *s1, char const *set);
 char			*ft_itoa(int n);
 char			**ft_split(char const *s, char c);
@@ -73,5 +73,6 @@ int				see_remnants(char *rem, char **line);
 void			ft_putchar(char c);
 void			ft_putstr(char *str);
 void			ft_putendl(char *s);
+void			mem_free(char **str);
 
 #endif

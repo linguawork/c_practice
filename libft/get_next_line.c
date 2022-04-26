@@ -6,13 +6,13 @@
 /*   By: areggie <areggie@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/30 12:26:03 by areggie           #+#    #+#             */
-/*   Updated: 2021/04/12 18:45:01 by areggie          ###   ########.fr       */
+/*   Updated: 2022/04/26 22:16:10 by areggie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	see_remnants_else_if1 (char *r, char **l)
+int	see_remnants_else_if1(char *r, char **l)
 {
 	*l = ft_strdup(r);
 	if (!(*l))
@@ -21,7 +21,7 @@ int	see_remnants_else_if1 (char *r, char **l)
 	return (0);
 }
 
-int	see_remnants_else_if2 (char **l)
+int	see_remnants_else_if2(char **l)
 {
 	*l = ft_calloc(1, 1);
 	if (!(*l))
@@ -55,7 +55,7 @@ int	see_remnants(char *rem, char **line)
 	return (0);
 }
 
-int	record_to_line (char **line, char *buffer)
+int	record_to_line(char **line, char *buffer)
 {
 	*line = ft_strjoin(*line, buffer);
 	if (!(*line))
