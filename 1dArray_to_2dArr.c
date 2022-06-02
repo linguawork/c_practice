@@ -21,5 +21,5 @@ int main()
 	{
         printf("%s\n",*answers[i]);
     }
-	sleep(100);
+	// sleep(100);
 }
