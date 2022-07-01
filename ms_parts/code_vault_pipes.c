@@ -18,14 +18,14 @@ int main(int argc, char* argv[])
     int fd[2]; // создаем массив fd [0] и [1]
     if (pipe(fd) == -1) // cоздаем трубу (у нее есть fd[0] и fd[1])
 	{
-        printf("An error ocurred with opening the pipe\n");
+        printf("An error occurred with opening the pipe\n");
         return 1;
     }
     
     int id = fork(); // cоздаем копию род процесса в дочернем // туда же копируются фд от пайпа
     if (id == -1) 
 	{
-        printf("An error ocurred with fork\n");
+        printf("An error occurred with fork\n");
         return 2;
     }
     
@@ -38,7 +38,7 @@ int main(int argc, char* argv[])
         scanf("%d", &x);
         if (write(fd[1], &x, sizeof(int)) == -1) // мы пишем в единицу
 		{
-            printf("An error ocurred with writing to the pipe\n");
+            printf("An error occurred with writing to the pipe\n");
             return 3;
         }
         close(fd[1]);
